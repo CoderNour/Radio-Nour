@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Nour - راديو بث مباشر</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.png">
+</head>
+<body>
+<button class="tablink" onclick="openPage('radio', this, 'red')" id="defaultOpen">الراديو</button>
+<button class="tablink" onclick="openPage('fairuz', this, 'blue')" >فيروزيات</button>
+<button class="tablink" onclick="openPage('kalthom', this, 'green')">كلثوميات</button>
+<button class="tablink" onclick="openPage('another', this, 'yellow')">منوعات</button>
+
+<div id="radio" class="tabcontent">
+<embed src="radio.html" style="height: 24cm; width: 100%;">
+</div>
+
+<div id="fairuz" class="tabcontent">
+<embed src="fairuz.html" style="height: 24cm; width: 100%;">
+</div>
+
+<div id="kalthom" class="tabcontent" style="text-align: center;">
+<img src="img/soon.png" alt="Coming Soon" style="height: 90%; width: 75%;">
+</div>
+
+<div id="another" class="tabcontent" style="text-align: center;">
+    <img src="img/soon.png" alt="Coming Soon" style="height: 90%; width: 75%;">
+</div>
+
+<script src="js/tabs.js"></script>
+</body>
+</html>
