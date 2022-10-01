@@ -1,1 +1,211 @@
+body{
+    background: linear-gradient(90deg,red,blue);
+}
+main{
+    width: 360px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header{
+    text-align: center;
+    color: white;
+    height: 350px;
+}
+header img{
+    margin-top: 20px;
+    height: 140px;
+}
+header h2{
+    margin:20px 0;
+}
+header p{
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Lalezar', cursive;
+}
+#content{
+    background-color: rgba(224 , 255 , 255 , 0.4);
+}
+#content:hover{
+    background-color: rgba(224 , 255 , 255 , 1.0);
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+#buttons img{
+    width: 45px;
+    height: 45px;
+    margin: 0 15px;
+}
+#name{
+    width: 70%;
+    height: 80px;
+    margin: 20px 0;
+}
+#volume{
+    text-align: center;
+    display: flex;
+}
+#volume input{
+    width: 70%;
+}
+#volume img{
+    width: 40px;
+    height: 40px;
+    margin: 25px 10px;
+}
+input[type="range" i]{
+    -webkit-appearance: none;
+    background: darkblue;
+    border-radius: 7%;
+    height: 8px;
+    margin: 40px 0;
 
+}
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: rgb(255, 102, 0);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+h2{
+    margin: 15px 0;
+}
+#theme button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0;
+}
+#theme{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#volume_value_article{
+    text-align: center;
+}
+#theme1{
+    background: linear-gradient(90deg , red , blue);
+}
+#theme2{
+    background: linear-gradient(90deg , blue,limegreen );
+}
+#theme3{
+    background: linear-gradient(90deg,purple,darkblue);
+}
+#theme4{
+    background: linear-gradient(90deg,red,gold);
+}
+#download{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(130deg , red 7% , blue 7%);
+    color: white;
+    margin: 15px 0;
+    font-size: 20px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    border:none;
+    border-radius:20px;
+}
+
+
+#volume_value{
+    font-family: 'Lemonada', cursive;
+    font-size: 30px;
+}
+
+
+#timer{
+    font-family: sans-serif;
+    display: inline-block;
+    border-radius: 30px;
+    background: lightblue;
+    width: 80%;
+}
+#seconds {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Lemonada', cursive;
+}
+#dot {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Lemonada', cursive;
+}
+#minutes{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Lemonada', cursive;
+}
+
+#reset{
+    width: 50px;
+    height: 50px;
+    margin-left: 16px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background: #8208e6;
+    cursor: pointer;
+}
+
+#outTimer{
+    justify-content: center;
+    display: block;
+    text-align: center;
+}
+#sleep{
+font-size:25px;
+font-family:'Noto Sans Arabic' , sans-serif;
+}
+#fairuz{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(130deg , limegreen 7% , blue 7%);
+    color: white;
+    margin: 15px 0;
+    font-size: 20px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    border:none;
+    border-radius:20px;
+}
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #Home {background-color: red;}
+  #News {background-color: green;}
+  #Contact {background-color: blue;}
+  #About {background-color: orange;}
